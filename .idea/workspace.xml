@@ -4,9 +4,7 @@
     <list default="true" id="247df3a1-34e2-40ad-8d27-f573bc81b4cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Week3Challenge/JobSeeker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3Challenge/JobSeeker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week3Challenge/META-INF/Week3Challenge.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Week3Challenge/ResumeApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3Challenge/ResumeApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JobSeeker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JobSeeker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ResumeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ResumeApp.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573136844747</updated>
       <workItem from="1573136902186" duration="15259000" />
-      <workItem from="1573155243803" duration="4518000" />
+      <workItem from="1573155243803" duration="7076000" />
     </task>
     <servers />
   </component>
