@@ -10,10 +10,13 @@ public class ResumeApp {
         //Prompt user to enter name and email address and set values
         ArrayList<JobSeeker> arrJobSeeker = new ArrayList<>();
         JobSeeker js = new JobSeeker();
-        System.out.println("Please enter your name: ");
-        String jsName = sc.next();
+        System.out.println("Please enter your First name: ");
+        String jsFName = sc.next();
+        js.setfName(jsFName);
+        System.out.println("Please enter your Last name: ");
+        String jsLName = sc.next();
         sc.nextLine();
-        js.setName(jsName);
+        js.setlName(jsLName);
         System.out.println("Please enter your email address: ");
         String jsEmail = sc.next();
         js.setEmailAddress(jsEmail);
@@ -23,7 +26,7 @@ public class ResumeApp {
         //print job seeker information
         for (JobSeeker j : arrJobSeeker) {
             System.out.println(String.format("%n%90s%n", " ").replaceAll(" ", "="));
-            System.out.println("name:" + j.getName());
+            System.out.println("name:" + j.getfName()+" "+j.getlName());
             System.out.println("email: " + j.getEmailAddress());
         }
 

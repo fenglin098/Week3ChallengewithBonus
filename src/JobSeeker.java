@@ -1,21 +1,31 @@
 public class JobSeeker {
-    private String name;
+    private String fName;
+    private String lName;
     private String emailAddress;
 
     public JobSeeker() {
     }
 
-    public JobSeeker(String name, String emailAddress) {
-        this.name = name;
+    public JobSeeker(String fName, String lName, String emailAddress) {
+        this.fName = fName;
+        this.lName = lName;
         this.emailAddress = emailAddress;
     }
 
-    public String getName() {
-        return name;
+    public String getfName() {
+        return fName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setfName(String fName) {
+        this.fName = fName;
+    }
+
+    public String getlName() {
+        return lName;
+    }
+
+    public void setlName(String lName) {
+        this.lName = lName;
     }
 
     public String getEmailAddress() {
