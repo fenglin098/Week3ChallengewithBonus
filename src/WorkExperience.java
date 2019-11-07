@@ -1,14 +1,16 @@
+import java.util.ArrayList;
+
 public class WorkExperience {
     private String company;
     private String jobTitle;
     private String startDate;
     private String endDate;
-    private String jobDescription;
+    private ArrayList<String> jobDescription;
 
     public WorkExperience() {
     }
 
-    public WorkExperience(String company, String jobTitle, String startDate, String endDate, String jobDescription) {
+    public WorkExperience(String company, String jobTitle, String startDate, String endDate, ArrayList<String> jobDescription) {
         this.company = company;
         this.jobTitle = jobTitle;
         this.startDate = startDate;
@@ -48,11 +50,11 @@ public class WorkExperience {
         this.endDate = endDate;
     }
 
-    public String getJobDescription() {
+    public ArrayList<String> getJobDescription() {
         return jobDescription;
     }
 
-    public void setJobDescription(String jobDescription) {
+    public void setJobDescription(ArrayList<String> jobDescription) {
         this.jobDescription = jobDescription;
     }
 }
